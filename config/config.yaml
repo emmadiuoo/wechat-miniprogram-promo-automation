@@ -1,0 +1,89 @@
+# 微信小程序推广自动化工具 - 配置文件
+
+# API 配置
+api:
+  # OpenAI API Key（或使用兼容的国产大模型）
+  openai_key: ""  # 请填写你的 API Key
+  # 模型名称
+  model: "gpt-4"
+  # API 基础 URL（可选，用于兼容其他服务商）
+  base_url: "https://api.openai.com/v1"
+
+# 微信公众号配置
+wechat:
+  app_id: ""  # 微信公众号 AppID
+  app_secret: ""  # 微信公众号 AppSecret
+
+# 视频平台配置
+video_platforms:
+  - douyin  # 抖音
+  - video_account  # 视频号
+
+# 输出目录
+output_dir: "./output"
+
+# 排版模板配置
+formatter:
+  # 可选模板：default, 文艺风，商务风
+  template_id: "default"
+
+# 分发配置
+distribution:
+  # 默认分发平台
+  default_platforms:
+    - wechat
+    - video
+    - xiaohongshu
+  
+  # 定时任务配置（可选）
+  schedule:
+    enabled: false
+    # 每天生成时间（24 小时制）
+    generate_time: "08:00"
+    # 分发时间
+    distribute_time: "09:00"
+
+# 日志配置
+logging:
+  level: "INFO"
+  file: "./logs/promo_automation.log"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
