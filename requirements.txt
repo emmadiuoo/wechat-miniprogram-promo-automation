@@ -1,0 +1,51 @@
+# 核心依赖
+openai>=1.0.0
+pyyaml>=6.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# 微信相关
+wechatpy>=2.0.0
+
+# 内容处理
+markdown>=3.5.0
+beautifulsoup4>=4.12.0
+
+# 图像处理（用于生成卡片）
+Pillow>=10.0.0
+
+# 视频处理（可选）
+moviepy>=1.0.3
+
+# AI 模型调用（支持多种服务商）
+httpx>=0.25.0
+
+# 日志和工具
+loguru>=0.7.0
+tqdm>=4.66.0
+
+# 开发依赖
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
